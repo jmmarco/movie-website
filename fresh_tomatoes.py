@@ -20,6 +20,10 @@ main_page_head = '''
         .collapse {
             margin-top: 10px;
         }
+        .glyphicon {
+            color: white;
+            font-size: 1.3em;
+        }
         #trailer .modal-dialog {
             margin-top: 200px;
             width: 640px;
@@ -149,7 +153,6 @@ def create_movie_tiles_content(movies):
         content += movie_tile_content.format(
             movie_title=movie.title,
             movie_storyline = movie.storyline,
-            movie_id = movie.number,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )
