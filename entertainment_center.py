@@ -51,12 +51,5 @@ premium_rush = media.Movie("Premium Rush",
 # Add each movie to the list
 movies = [star_trek, ted, the_intouchables, planes, kill_bill, premium_rush]
 
-i = 1
-for movie in movies:
-    movie.number = i
-    i += 1
-    print movie.number
-
-
 # Open movies
 fresh_tomatoes.open_movies_page(movies)
