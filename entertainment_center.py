@@ -28,3 +28,8 @@ premium_rush = media.Movie("Premium Rush", "In Manhattan, a bike messenger picks
 movies = [star_trek, ted, the_intouchables, planes, kill_bill, premium_rush]
 fresh_tomatoes.open_movies_page(movies)
 
+#fresh_tomatoes.open_movies_page(movies)
+#print (media.Movie.VALID_RATINGS)
+#print(media.Movie.__doc__)
+#print(media.Movie.__name__)
+#print(media.Movie.__module__)
